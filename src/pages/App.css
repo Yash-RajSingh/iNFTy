@@ -1,0 +1,51 @@
+:root {
+  --black: #000000;
+  --darkest-purple: #400740;
+  --darkest-purple2: #320332;
+  --dark-purple: #7a147a;
+  --light-purple: #961796;
+  --lightest-purple: #cc45cc;
+  --purple-diff: #9855d0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  background: linear-gradient(
+      to top right,
+      var(--darkest-purple2) 5%,
+      var(--black) 100%
+    )
+    fixed;
+  padding: 0 1rem 0 0;
+}
+button{
+  cursor: pointer;
+}
+.pseudobody {
+  padding-left: 4rem;
+  /* border: 1px solid white; */
+  margin-top: 3%;
+}
+
+
+
+/*---------Custom Scrollbar Styling---------*/
+::-webkit-scrollbar {
+  width: 0.5vw;
+  background: black;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--light-purple);
+  border: 0.5px solid black;
+  /* background-clip: padding-box; */
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--lightest-purple);
+}
+

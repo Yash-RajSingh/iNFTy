@@ -1,0 +1,67 @@
+[
+    {
+        "img" : "./images/NFTs/popular/01.jpg",
+        "name": "Pan #1547",
+        "price" : 3
+    },
+    {
+        "img" : "./images/NFTs/popular/02.png",
+        "name": "RadRabbit #1987",
+        "price" : 4.5
+    },
+    {
+        "img" : "./images/NFTs/popular/03.jpg",
+        "name": "RadRabbit #2547",
+        "price" : 2
+    },
+    {
+        "img" : "./images/NFTs/popular/04.jpg",
+        "name": "Pan #1475",
+        "price" : 1.5
+    },
+    {
+        "img" : "./images/NFTs/popular/05.jpg",
+        "name": "Pan #1234",
+        "price" : 2.9
+    },
+    {
+        "img" : "./images/NFTs/popular/06.jpg",
+        "name": "RadRabbit #1753",
+        "price" : 4.5
+    },
+    {
+        "img" : "./images/NFTs/popular/07.jpg",
+        "name": "RadRabbit #1654",
+        "price" : 4
+    },
+    {
+        "img" : "./images/NFTs/popular/08.jpg",
+        "name": "RadRabbit #1452",
+        "price" : 3
+    },
+    {
+        "img" : "./images/NFTs/popular/09.jpg",
+        "name": "RadRabbit #1358",
+        "price" : 3.7
+    },
+    {
+        "img" : "./images/NFTs/popular/10.jpg",
+        "name": "RadRabbit #1828",
+        "price" : 1
+    },
+    {
+        "img" : "./images/NFTs/popular/11.jpg",
+        "name": "RadRabbit #1313",
+        "price" : 3
+    },
+    {
+        "img" : "./images/NFTs/popular/12.jpg",
+        "name": "RadRabbit #1024",
+        "price" : 1.2
+    },
+    {
+        "img" : "./images/NFTs/popular/13.jpg",
+        "name": "RadRabbit #1620",
+        "price" : 2.4
+    }    
+]

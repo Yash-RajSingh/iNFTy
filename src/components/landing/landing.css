@@ -1,0 +1,89 @@
+.landingContent {
+  display: flex;
+  /* border: 2px solid green; */
+}
+.landing-left {
+  /* border: 2px solid white; */
+  width: 50%;
+}
+.slogan {
+  font: 5rem "anton";
+}
+.catchphrase {
+  font: 1rem "joan";
+  letter-spacing: 1px;
+  margin-top: 3%;
+}
+.landing-left button {
+  background: var(--dark-purple);
+  border: 0;
+  outline: none;
+  padding: 0.7rem 1.5rem;
+  margin-top: 5%;
+  border-radius: 0.5rem;
+  font: 1rem "RSRegular";
+  letter-spacing: 1px;
+}
+.landing-right {
+  width: 50%;
+  /* border: 2px solid yellow; */
+  margin-left: auto;
+}
+.main-img {
+  width: 90%;
+  height: max-content;
+  margin: 2% 5%;
+  padding: 1rem;
+}
+
+.auctionStats {
+  position: relative;
+  top: -3.2rem;
+  display: flex;
+  background: rgba(47, 20, 47, 0.423);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border-radius: 10px;
+}
+
+.auctionStatContainer {
+  width: 33.3%;
+  font-family: "RSRegular";
+  padding: 1rem;
+}
+.middle {
+  border-left: 1px solid var(--dark-purple);
+  border-right: 1px solid var(--dark-purple);
+}
+.auctionStatContainer p {
+  color: var(--dark-purple);
+  font-size: 2rem;
+  margin: 2% 0;
+}
+.auctionStatContainer button {
+  color: white;
+  background: transparent;
+  border: 1px solid var(--dark-purple);
+  padding: 0.5rem 1.5rem;
+  margin-top: 5%;
+  border-radius: 0.5rem;
+  font: 1rem "RSRegular";
+  letter-spacing: 1px;
+}
+
+/*--------------------------------------------
+        STAT COUNTER COMPONENT STYLING 
+ --------------------------------------------*/
+ .statCounter{
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-evenly;
+ }
+ .stats {
+  margin-top: 2%;
+  font: 1rem "joan";
+  letter-spacing: 1px;
+}
+.statdisplay {
+  font: 2rem "openSans2";
+}

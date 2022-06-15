@@ -1,0 +1,42 @@
+[
+    {
+        "name": "John Conner",
+        "profile": "./images/artists/01.jpg",
+        "netValue": 885.6
+    },
+    {
+        "name": "Sindre Strom",
+        "profile": "./images/artists/02.jpg",
+        "netValue": 24.56
+    },
+    {
+        "name": "Masha Raymers",
+        "profile": "./images/artists/03.jpg",
+        "netValue": 345.6
+    },
+    {
+        "name": "Juan Gomez",
+        "profile": "./images/artists/04.jpg",
+        "netValue": 52.56
+    },
+    {
+        "name": "Min An",
+        "profile": "./images/artists/05.jpg",
+        "netValue": 90.56
+    },
+    {
+        "name": "Jack Winbow",
+        "profile": "./images/artists/06.jpg",
+        "netValue": 24.56
+    },
+    {
+        "name": "Mohamed Abdelghaffar",
+        "profile": "./images/artists/07.jpg",
+        "netValue": 200
+    },
+    {
+        "name": "Rio Kuncoro",
+        "profile": "./images/artists/08.jpg",
+        "netValue": 568.8
+    }
+]

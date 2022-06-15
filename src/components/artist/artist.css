@@ -1,0 +1,51 @@
+.artist-container{
+  margin-top: 10%;
+}
+
+.artist-container h4 {
+  font: 3rem "joan";
+}
+.artistWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.artistCard {
+  width: 23rem;
+  margin-top: 5%;
+  display: flex;
+  padding: 1rem;
+  background: rgb(53, 5, 72);
+  box-shadow: 0 8px 20px 0 rgba(151, 95, 197, 0.37);
+  border-radius: 1rem;
+}
+.artistCard img {
+  width: 30%;
+  min-height: 7rem;
+  max-height: 10rem;
+  border-radius: 1rem;
+}
+.subArtistCard{
+    padding: 0.5rem;
+    height: max-content;
+}
+
+.name{
+    font: 1.7rem 'RSRegular';
+}
+.value{
+    font: 1.25rem 'RSLight';
+    margin-top: 10%;
+}
+.value span{
+    color: var(--lightest-purple);
+}
+
+.icon{
+    border: 0.5px solid var(--purple-diff);
+    /* background: rgba(57, 57, 57, 0.605); */
+    padding: 0.3rem;
+    font-size: 2rem;
+    margin: 10% 0 0 5%;
+    border-radius: 0.5rem;
+}

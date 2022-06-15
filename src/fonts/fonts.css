@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'anton';
+    src: url(font-files/Anton-Regular.ttf);
+}
+@font-face {
+    font-family: 'joan';
+    src: url(font-files/Joan-Regular.ttf);
+}
+@font-face {
+    font-family: 'opanSans1';
+    src: url(font-files/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: 'opanSans2';
+    src: url(font-files/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: 'RSMedium';
+    src: url(font-files/RSMedium.ttf);
+}
+@font-face {
+    font-family: 'RSRegular';
+    src: url(font-files/RSRegular.ttf);
+}
+@font-face {
+    font-family: 'RSLight';
+    src: url(font-files/RSLight.ttf);
+}

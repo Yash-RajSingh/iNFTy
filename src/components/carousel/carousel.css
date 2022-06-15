@@ -1,0 +1,50 @@
+.carousel-container{
+    margin-top: 10%;
+}
+.carousel-container h4{
+    font: 3rem 'joan';
+}
+.carousel{
+    margin-top: 2%;
+    cursor: grab;
+    overflow: hidden;
+    /* position: absolute; */
+    /* border: 1px solid yellow; */
+}
+.inner-carousel{
+    display: flex;
+    gap: 2%;
+    width: 90vw;
+    /* border: 1px solid green; */
+}
+
+.item{
+    min-width: 20rem;
+    background: rgb(53, 5, 72);
+    box-shadow: 0 8px 20px 0 rgba(151, 95, 197, 0.37);
+    padding: 0.5rem;
+    border-radius: 1rem;
+    /* border: 1px solid yellow; */
+    padding-bottom: 2rem;
+}
+
+.item img{
+    width: 100%;
+    border-radius: 0.5rem;
+    pointer-events: none;
+}
+.data-div{
+    margin-top: 5%;
+    /* border: 1px solid green; */
+}
+.data-div p{
+    font: 1.5rem 'RSRegular';
+}
+.data-div span{
+   float: right;
+   font-size: 1.25rem;
+   color: var(--purple-diff);
+   border: 1px solid var(--purple-diff);
+   padding: 0.25rem 0.7rem;
+   border-radius: 0.25rem;
+}

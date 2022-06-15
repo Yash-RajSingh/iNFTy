@@ -1,0 +1,41 @@
+.header {
+  padding: 0.5rem;
+  display: flex;
+  padding-left: 1.5rem;
+  justify-content: space-between;
+}
+.subhead-left {
+  display: flex;
+}
+.header img {
+  width: 2.5rem;
+}
+h1 {
+  font: 2rem "joan";
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin-left: 0.5%;
+}
+
+.subhead-right{
+    display: flex;
+    gap: 5%;
+}
+.header button {
+  background: var(--dark-purple);
+  border: 0;
+  outline: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 0.5rem;
+  font: 1rem "RSRegular";
+  letter-spacing: 1px;
+}
+input {
+  outline: none;
+  width: 10rem;
+  border: 0.5px solid white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background: var(--black);
+  font-size: 1rem;
+}
