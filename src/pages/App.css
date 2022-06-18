@@ -49,3 +49,14 @@ button{
   background: var(--lightest-purple);
 }
 
+.loader{
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background: black;
+}
+.loaderWrapper{
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}

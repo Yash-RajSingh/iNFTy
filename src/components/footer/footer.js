@@ -21,17 +21,17 @@ const Footer = () => {
                 <div className='footer-right'>
                     <div className='footerDiv'>
                         <p className="head">Resources</p>
-                        <p>Help Center</p>
-                        <p>Partners</p>
-                        <p>Suggestions</p>
-                        <p>Newsletter</p>
+                        <p className="subhead">Help Center</p>
+                        <p className="subhead">Partners</p>
+                        <p className="subhead">Suggestions</p>
+                        <p className="subhead">Newsletter</p>
                     </div>
                     <div className='footerDiv'>
                         <p className="head">Company</p>
-                        <p>About</p>
-                        <p>Careers</p>
-                        <p>Rankings</p>
-                        <p>Activity</p>
+                        <p className="subhead">About</p>
+                        <p className="subhead">Careers</p>
+                        <p className="subhead">Rankings</p>
+                        <p className="subhead">Activity</p>
                     </div>
                 </div>
             </div>

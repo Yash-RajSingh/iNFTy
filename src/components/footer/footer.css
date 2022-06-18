@@ -7,12 +7,12 @@
 }
 .footerDiv1{
     /* border: 1px solid green; */
-    width: 35%;
+    width: 35rem;
     padding: 1rem;
 }
 .footerDiv{
     /* border: 1px solid green; */
-    width: 20rem;
+    width: 15rem;
     padding: 1rem;
 }
 .footer img{
@@ -32,6 +32,7 @@
 }
 
 .socials{
+    width: 80%;
     margin-top: 7%;
     display: flex;
     justify-content: space-evenly;
@@ -44,14 +45,15 @@
     display: flex;
 }
 
-.footerDiv p{
-    font: 1.5rem 'RSRegular';
+.subhead{
+    font: 1.25rem 'RSRegular';
     margin-top: 5%;
 }
+
 .head{
     color: var(--purple-diff);
+    font-size: 2rem;
 }
-
 #copyright{
     padding-left: 3rem;
     font: 0.75rem 'joan';

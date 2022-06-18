@@ -1,5 +1,6 @@
 import './landing.css'
 import man from '../../assets/man.png'
+import Ticker from './ticker';
 
 const LandingContent = () => {
     return (
@@ -14,10 +15,16 @@ const LandingContent = () => {
                     <img src={man} className='main-img' />
                     <div className='auctionStats'>
                         <div className='auctionStatContainer'> Current bid <p>5.00 ETH</p> $11,373.55</div>
-                        <div className='auctionStatContainer middle'>Auction ends in</div>
+                        <div className='auctionStatContainer middle'>Auction ends in
+                            <div>
+                                <Ticker />
+                            </div>
+                        </div>
                         <div className='auctionStatContainer'>
-                            <button>Bid now</button>
-                            <button>See item</button>
+                            <div className='buttonContainer'>
+                                <button>Bid now</button>
+                                <button>See item</button>
+                            </div>
                         </div>
                     </div>
                 </div>

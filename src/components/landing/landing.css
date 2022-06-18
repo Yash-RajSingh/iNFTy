@@ -49,6 +49,7 @@
 .auctionStatContainer {
   width: 33.3%;
   font-family: "RSRegular";
+  letter-spacing: 1px;
   padding: 1rem;
 }
 .middle {
@@ -57,10 +58,15 @@
 }
 .auctionStatContainer p {
   color: var(--dark-purple);
+  font-weight: 600;
   font-size: 2rem;
   margin: 2% 0;
 }
-.auctionStatContainer button {
+.buttonContainer{
+  margin: auto;
+  text-align: center;
+}
+.buttonContainer button {
   color: white;
   background: transparent;
   border: 1px solid var(--dark-purple);
@@ -86,4 +92,16 @@
 }
 .statdisplay {
   font: 2rem "openSans2";
+}
+
+.counter{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.count{
+  color: var(--dark-purple);
+  font: 2rem 'RSRegular';
+  font-weight: 600;
 }
