@@ -12,6 +12,7 @@
   padding: 0;
   box-sizing: border-box;
   color: white;
+  scroll-behavior: smooth;
 }
 body {
   background: linear-gradient(

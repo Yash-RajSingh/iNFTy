@@ -1,6 +1,8 @@
 import './header.css'
 import logo from '../../assets/logo.png'
+import { useScrollBy } from 'react-use-window-scroll';
 const Header = () => {
+    const scrollBy = useScrollBy();
     return (
         <>
             <div className="header">
@@ -9,8 +11,13 @@ const Header = () => {
                     <h1>iNFTy</h1>
                 </div>
                 <div className="subhead-right">
-                    <input type="text" placeholder='Search'/>
-                    <button>Explore</button>
+                    <input type="text" placeholder='Search' onKeyDown={(event) => {
+                        if (event.key === 'Enter') {
+                            event.preventDefault();
+                            alert("No result found")
+                          }
+                        }}/>
+                    <button onClick={() => scrollBy({ top: 700, behavior: 'smooth' })}>Explore</button>
                 </div>
             </div>
         </>

@@ -1,52 +1,52 @@
 [
     {
-        "name": "CyberKong #",
+        "name": "CyberKong #90",
         "image": "../images/NFTs/CyberKong/01.png",
-        "price": 5
+        "price": 5.9
     },
     {
-        "name": "CyberKong #",
+        "name": "CyberKong #45",
         "image": "../images/NFTs/CyberKong/02.png",
-        "price": 5
+        "price": 6
     },
     {
-        "name": "CyberKong #",
+        "name": "CyberKong #50",
         "image": "../images/NFTs/CyberKong/03.png",
-        "price": 5
+        "price": 2
     },
     {
-        "name": "CyberKong #",
+        "name": "CyberKong #28",
         "image": "../images/NFTs/CyberKong/04.png",
-        "price": 5
+        "price": 1
     },
     {
-        "name": "CyberKong #",
+        "name": "CyberKong #73",
         "image": "../images/NFTs/CyberKong/05.png",
-        "price": 5
+        "price": 4.2
     },
     {
-        "name": "CyberKong #",
+        "name": "CyberKong #64",
         "image": "../images/NFTs/CyberKong/06.png",
-        "price": 5
+        "price": 8.4
     },
     {
-        "name": "CyberKong #",
+        "name": "CyberKong #08",
         "image": "../images/NFTs/CyberKong/07.png",
-        "price": 5
+        "price": 2
     },
     {
-        "name": "CyberKong #",
+        "name": "CyberKong #86",
         "image": "../images/NFTs/CyberKong/08.png",
-        "price": 5
+        "price": 5.3
     },
     {
-        "name": "CyberKong #",
+        "name": "CyberKong #38",
         "image": "../images/NFTs/CyberKong/09.png",
-        "price": 5
+        "price": 9
     },
     {
-        "name": "CyberKong #",
+        "name": "CyberKong #43",
         "image": "../images/NFTs/CyberKong/10.png",
-        "price": 5
+        "price": 10
     }
 ]

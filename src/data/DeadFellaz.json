@@ -1,52 +1,52 @@
 [
     {
-        "name": "DeadFellaz #",
+        "name": "DeadFellaz #20",
         "image": "../images/NFTs/DeadFellaz/01.png",
-        "price": 5
+        "price": 14
     },
     {
-        "name": "DeadFellaz #",
+        "name": "DeadFellaz #56",
         "image": "../images/NFTs/DeadFellaz/02.png",
-        "price": 5
+        "price": 2.8
     },
     {
-        "name": "DeadFellaz #",
+        "name": "DeadFellaz #89",
         "image": "../images/NFTs/DeadFellaz/03.png",
-        "price": 5
+        "price": 7
     },
     {
-        "name": "DeadFellaz #",
+        "name": "DeadFellaz #86",
         "image": "../images/NFTs/DeadFellaz/04.png",
-        "price": 5
+        "price": 6.3
     },
     {
-        "name": "DeadFellaz #",
+        "name": "DeadFellaz #06",
         "image": "../images/NFTs/DeadFellaz/05.png",
-        "price": 5
+        "price": 2
     },
     {
-        "name": "DeadFellaz #",
+        "name": "DeadFellaz #98",
         "image": "../images/NFTs/DeadFellaz/06.png",
         "price": 5
     },
     {
-        "name": "DeadFellaz #",
+        "name": "DeadFellaz #73",
         "image": "../images/NFTs/DeadFellaz/07.png",
-        "price": 5
+        "price": 10
     },
     {
-        "name": "DeadFellaz #",
+        "name": "DeadFellaz #46",
         "image": "../images/NFTs/DeadFellaz/08.png",
-        "price": 5
+        "price": 1
     },
     {
-        "name": "DeadFellaz #",
+        "name": "DeadFellaz #29",
         "image": "../images/NFTs/DeadFellaz/09.png",
-        "price": 5
+        "price": 2.8
     },
     {
-        "name": "DeadFellaz #",
+        "name": "DeadFellaz #19",
         "image": "../images/NFTs/DeadFellaz/10.png",
-        "price": 5
+        "price": 6
     }
 ]

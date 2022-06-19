@@ -1,52 +1,52 @@
 [
     {
-        "name": "NeoTokyoCitizen #",
+        "name": "NeoTokyoCitizen #80",
         "image": "../images/NFTs/NeoTokyoCitizen/01.png",
-        "price": 5
+        "price": 10
     },
     {
-        "name": "NeoTokyoCitizen #",
+        "name": "NeoTokyoCitizen #64",
         "image": "../images/NFTs/NeoTokyoCitizen/02.png",
-        "price": 5
+        "price": 1
     },
     {
-        "name": "NeoTokyoCitizen #",
+        "name": "NeoTokyoCitizen #38",
         "image": "../images/NFTs/NeoTokyoCitizen/03.png",
-        "price": 5
+        "price": 8.5
     },
     {
-        "name": "NeoTokyoCitizen #",
+        "name": "NeoTokyoCitizen #20",
         "image": "../images/NFTs/NeoTokyoCitizen/04.png",
-        "price": 5
+        "price": 5.3
     },
     {
-        "name": "NeoTokyoCitizen #",
+        "name": "NeoTokyoCitizen #71",
         "image": "../images/NFTs/NeoTokyoCitizen/05.png",
-        "price": 5
+        "price": 4.9
     },
     {
-        "name": "NeoTokyoCitizen #",
+        "name": "NeoTokyoCitizen #16",
         "image": "../images/NFTs/NeoTokyoCitizen/06.png",
-        "price": 5
+        "price": 6.9
     },
     {
-        "name": "NeoTokyoCitizen #",
+        "name": "NeoTokyoCitizen #34",
         "image": "../images/NFTs/NeoTokyoCitizen/07.png",
-        "price": 5
+        "price": 1.2
     },
     {
-        "name": "NeoTokyoCitizen #",
+        "name": "NeoTokyoCitizen #60",
         "image": "../images/NFTs/NeoTokyoCitizen/08.png",
         "price": 5
     },
     {
-        "name": "NeoTokyoCitizen #",
+        "name": "NeoTokyoCitizen #08",
         "image": "../images/NFTs/NeoTokyoCitizen/09.png",
-        "price": 5
+        "price": 3
     },
     {
-        "name": "NeoTokyoCitizen #",
+        "name": "NeoTokyoCitizen #99",
         "image": "../images/NFTs/NeoTokyoCitizen/10.png",
-        "price": 5
+        "price": 6.9
     }
 ]

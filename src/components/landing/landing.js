@@ -1,15 +1,16 @@
 import './landing.css'
 import man from '../../assets/man.png'
 import Ticker from './ticker';
-
+import { useScrollBy } from 'react-use-window-scroll';
 const LandingContent = () => {
+    const scrollBy = useScrollBy();
     return (
         <>
             <div className='landingContent'>
                 <div className='landing-left'>
                     <p className='slogan'>Discover,<br />colelct and sell dope NFTs</p>
                     <p className='catchphrase'>The world's largest digital marketpalce for crypto collectibles and non-fungible tokens (NFTs).</p>
-                    <button>Explore</button>
+                    <button onClick={() => scrollBy({ top: 700, behavior: 'smooth' })}>Explore</button>
                 </div>
                 <div className='landing-right'>
                     <img src={man} className='main-img' />
