@@ -5,8 +5,11 @@ import Collections from '../../components/collection/collection';
 import Artists from '../../components/artist/artist';
 import Container from '../../animation/animation';
 import StatCounter from '../../components/statcounter/counter';
+import { useScrollTo } from 'react-use-window-scroll'
 
 const HomeComponent = () => {
+    const scrollTo = useScrollTo();
+    window.scrollTo({top: 0})
     return (
         <>
             <Container componentToPassDown={<LandingContent />} />

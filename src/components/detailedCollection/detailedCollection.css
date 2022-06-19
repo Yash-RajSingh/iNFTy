@@ -1,0 +1,49 @@
+h3{
+    font-size: 3rem;
+    font-family: 'RSRegular';
+}
+
+.detailedCollectionContainer{
+    width: 95%;
+    margin: 5% auto;
+}
+
+.detailedCollectionWrapper{
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.detailedCollectionCard{
+    width: 20rem;
+    margin-top: 3.5%;
+    background: rgb(53, 5, 72);
+    box-shadow: 0 8px 20px 0 rgba(151, 95, 197, 0.37);
+    border-radius: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.detailedCollectionCard img{
+    width: 100%;
+    min-height: 20rem;
+    border-radius: 0.5rem 0.5rem 0 0 ;
+}
+
+.subDetailedCollectionCard{
+    margin-top: 5%;
+}
+
+.subDetailedCollectionCard p{
+    font: 2rem 'openSans1';
+    padding-left: 1rem;
+}
+.subDetailedCollectionCard span{
+    float: right;
+   font: 1.25rem 'joan';
+   color: var(--purple-diff);
+   border: 1px solid var(--purple-diff);
+   padding: 0.25rem 0.7rem;
+   border-radius: 0.25rem;
+   margin-right: 1rem;
+}

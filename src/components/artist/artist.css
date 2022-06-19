@@ -44,6 +44,7 @@
 .icon{
     border: 0.5px solid var(--purple-diff);
     /* background: rgba(57, 57, 57, 0.605); */
+    cursor: pointer;
     padding: 0.3rem;
     font-size: 2rem;
     margin: 10% 0 0 5%;

@@ -1,6 +1,9 @@
 import './collection.css'
 import collections from '../../data/collection.json'
+import {useNavigate} from "react-router-dom"
+
 const Collections = () => {
+    let navigate=useNavigate();
     return (
         <>
             <div className="collection-container">
@@ -8,7 +11,7 @@ const Collections = () => {
                 <div className="collectionWrapper">
                     {collections.map((data) => {
                         return (
-                            <div className="collectionCard" key={data.name}>
+                            <div className="collectionCard" key={data.name} onClick={() => {navigate(`/collection/${data.name}`)}}>
                                 <img src={data.cover} alt={data.name} />
                                 <div className="subCollectionCard">
                                     <span>{data.count} items</span>

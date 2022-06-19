@@ -39,6 +39,7 @@
 }
 .sIcons{
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
 .footer-right{
@@ -46,11 +47,13 @@
 }
 
 .subhead{
+    cursor: pointer;
     font: 1.25rem 'RSRegular';
     margin-top: 5%;
 }
 
 .head{
+    cursor: pointer;
     color: var(--purple-diff);
     font-size: 2rem;
 }
