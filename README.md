@@ -6,10 +6,11 @@
 ## A prototype frontend for a NFT marketplace website
 
 ### Tech-Stack used :
-  ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
- ---
- 
- ### Preview:
- ![image](https://user-images.githubusercontent.com/85413348/174433757-c337b850-8b62-4f31-bb98-302cd910b168.png)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
+---
+
+### Preview:
+
+![image](https://user-images.githubusercontent.com/85413348/174433757-c337b850-8b62-4f31-bb98-302cd910b168.png)

@@ -1,5 +1,5 @@
 .artist-container{
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 .artist-container h4 {
@@ -22,11 +22,11 @@
 .artistCard img {
   width: 30%;
   min-height: 7rem;
-  max-height: 10rem;
   border-radius: 1rem;
 }
 .subArtistCard{
     padding: 0.5rem;
+    margin-left: 3%;
     height: max-content;
 }
 
@@ -47,6 +47,31 @@
     cursor: pointer;
     padding: 0.3rem;
     font-size: 2rem;
-    margin: 10% 0 0 5%;
+    margin: 10% 10% 0 0;
     border-radius: 0.5rem;
+}
+
+@media screen and (max-width:720px){
+  .artist-container{
+    margin-top: 20%;
+    margin-left: -2%;
+  }
+  .artistCard{
+    margin-top: 8%;
+    width: 15rem;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+  }
+  .artistCard img{
+    width: 100%;
+    height: 15rem;
+    border-radius: 0.5rem;
+  }
+  .value, .icon{
+    margin-top: 7%;
+  }
+.subArtistCard{
+  margin-left: 0;
+}
 }

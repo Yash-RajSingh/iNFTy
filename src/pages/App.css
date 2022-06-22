@@ -61,3 +61,9 @@ button{
   top: 45%;
   left: 45%;
 }
+
+@media screen and (max-width: 720px) {
+.pseudobody {
+  padding-left: 2rem;
+  }
+}

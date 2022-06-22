@@ -1,52 +1,52 @@
 [
-    {
-        "name": "BoredApe #08",
-        "image": "../images/NFTs/BoredApe/01.png",
-        "price": 5
-    },
-    {
-        "name": "BoredApe #92",
-        "image": "../images/NFTs/BoredApe/02.png",
-        "price": 2.5
-    },
-    {
-        "name": "BoredApe #74",
-        "image": "../images/NFTs/BoredApe/03.png",
-        "price": 3
-    },
-    {
-        "name": "BoredApe #28",
-        "image": "../images/NFTs/BoredApe/04.png",
-        "price": 10
-    },
-    {
-        "name": "BoredApe #34",
-        "image": "../images/NFTs/BoredApe/05.png",
-        "price": 7
-    },
-    {
-        "name": "BoredApe #40",
-        "image": "../images/NFTs/BoredApe/06.png",
-        "price": 5.2
-    },
-    {
-        "name": "BoredApe #23",
-        "image": "../images/NFTs/BoredApe/07.png",
-        "price": 1.2
-    },
-    {
-        "name": "BoredApe #46",
-        "image": "../images/NFTs/BoredApe/08.png",
-        "price": 6.9
-    },
-    {
-        "name": "BoredApe #69",
-        "image": "../images/NFTs/BoredApe/09.png",
-        "price": 8.2
-    },
-    {
-        "name": "BoredApe #70",
-        "image": "../images/NFTs/BoredApe/10.png",
-        "price": 5
-    }
+  {
+    "name": "BoredApe #08",
+    "image": "../images/NFTs/BoredApe/01.png",
+    "price": 5
+  },
+  {
+    "name": "BoredApe #92",
+    "image": "../images/NFTs/BoredApe/02.png",
+    "price": 2.5
+  },
+  {
+    "name": "BoredApe #74",
+    "image": "../images/NFTs/BoredApe/03.png",
+    "price": 3
+  },
+  {
+    "name": "BoredApe #28",
+    "image": "../images/NFTs/BoredApe/04.png",
+    "price": 10
+  },
+  {
+    "name": "BoredApe #34",
+    "image": "../images/NFTs/BoredApe/05.png",
+    "price": 7
+  },
+  {
+    "name": "BoredApe #40",
+    "image": "../images/NFTs/BoredApe/06.png",
+    "price": 5.2
+  },
+  {
+    "name": "BoredApe #23",
+    "image": "../images/NFTs/BoredApe/07.png",
+    "price": 1.2
+  },
+  {
+    "name": "BoredApe #46",
+    "image": "../images/NFTs/BoredApe/08.png",
+    "price": 6.9
+  },
+  {
+    "name": "BoredApe #69",
+    "image": "../images/NFTs/BoredApe/09.png",
+    "price": 8.2
+  },
+  {
+    "name": "BoredApe #70",
+    "image": "../images/NFTs/BoredApe/10.png",
+    "price": 5
+  }
 ]

@@ -3,11 +3,11 @@ import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 
 const containerVariant = {
-  visible: { opacity: 1, x: "0%" , transition: { duration: 1 } },
-  hidden: { opacity: 0, x: "-100%" }
+  visible: { opacity: 1, x: "0%", transition: { duration: 1 } },
+  hidden: { opacity: 0, x: "-100%" },
 };
 
-const Container = ({ componentToPassDown  }) => {
+const Container = ({ componentToPassDown }) => {
   const control = useAnimation();
   const [ref, inView] = useInView();
   useEffect(() => {
@@ -25,7 +25,7 @@ const Container = ({ componentToPassDown  }) => {
       initial="hidden"
       animate={control}
     >
-    {componentToPassDown}
+      {componentToPassDown}
     </motion.div>
   );
 };

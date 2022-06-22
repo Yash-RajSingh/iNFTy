@@ -1,65 +1,97 @@
-.footer{
-    width: 100%;
-    padding: 1rem;
-    margin-top: 10%;
-    display: flex;
-    justify-content: space-between;
+.footer {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
 }
-.footerDiv1{
-    /* border: 1px solid green; */
-    width: 35rem;
-    padding: 1rem;
+.footerDiv1 {
+  /* border: 1px solid yellow; */
+  width: 35rem;
+  padding: 1rem;
 }
-.footerDiv{
-    /* border: 1px solid green; */
-    width: 15rem;
-    padding: 1rem;
+.footerDiv {
+  /* border: 1px solid green; */
+  width: 15rem;
+  padding: 1rem;
 }
-.footer img{
-    width: 10%;
-    float: left;
+.footer img {
+  width: 10%;
+  float: left;
 }
-.footerDiv1 h2{
-    font: 2.5rem 'joan';
-    margin-top: 3%;
+.footerDiv1 h2 {
+  font: 2.5rem "joan";
 }
-.footerDiv1 p{
-    margin: 0 auto;
-    margin-top: 5%;
-    color: grey;
-    width: 80%;
-    font: 1.2rem 'openSans2';
+.footerDiv1 p {
+  margin: 0 auto;
+  margin-top: 5%;
+  color: grey;
+  width: 80%;
+  font: 1.2rem "openSans2";
 }
 
-.socials{
-    width: 80%;
-    margin-top: 7%;
-    display: flex;
-    justify-content: space-evenly;
+.socials {
+  width: 80%;
+  margin-top: 7%;
+  display: flex;
+  justify-content: space-evenly;
 }
-.sIcons{
+.sIcons {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.footer-right {
+  display: flex;
+}
+
+.subhead {
+  cursor: pointer;
+  font: 1.25rem "RSRegular";
+  margin-top: 5%;
+}
+
+.head {
+  cursor: pointer;
+  color: var(--purple-diff);
+  font-size: 2rem;
+}
+#copyright {
+  padding-left: 3rem;
+  font: 0.75rem "joan";
+  letter-spacing: 1px;
+  margin-bottom: 0.5%;
+}
+
+@media screen and (max-width: 720px) {
+  .footer {
+    margin-top: 20%;
+  }
+
+  .footer img {
+    width: 20%;
+  }
+  .footerDiv1 h2 {
+    margin-top: 2%;
+  }
+  .footerDiv {
+    width: 9rem;
+  }
+  .head {
     font-size: 1.5rem;
-    cursor: pointer;
-}
-
-.footer-right{
-    display: flex;
-}
-
-.subhead{
-    cursor: pointer;
-    font: 1.25rem 'RSRegular';
-    margin-top: 5%;
-}
-
-.head{
-    cursor: pointer;
-    color: var(--purple-diff);
-    font-size: 2rem;
-}
-#copyright{
-    padding-left: 3rem;
-    font: 0.75rem 'joan';
-    letter-spacing: 1px;
-    margin-bottom: 1%;
+  }
+  .subhead {
+    font-size: 1rem;
+    padding-left: 0.3rem;
+  }
+  .footerDiv1 p {
+    font-size: 1rem;
+  }
+  .socials {
+    margin: 10% auto 0 auto;
+  }
+  #copyright {
+    margin-bottom: 2%;
+    font-size: 1rem;
+  }
 }

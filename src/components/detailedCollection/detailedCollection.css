@@ -1,49 +1,84 @@
-h3{
-    font-size: 3rem;
-    font-family: 'RSRegular';
+h3 {
+  font-size: 2.7rem;
+  font-family: "RSLight";
 }
 
-.detailedCollectionContainer{
-    width: 95%;
-    margin: 5% auto;
+.detailedCollectionContainer {
+  width: 99%;
+  margin: 5% auto;
 }
 
-.detailedCollectionWrapper{
-    margin-top: 3%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.detailedCollectionWrapper {
+  margin-top: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.detailedCollectionCard{
-    width: 20rem;
-    margin-top: 3.5%;
-    background: rgb(53, 5, 72);
-    box-shadow: 0 8px 20px 0 rgba(151, 95, 197, 0.37);
-    border-radius: 0.5rem;
-    padding-bottom: 1rem;
+.detailedCollectionCard {
+  width: 20rem;
+  margin-top: 3.5%;
+  background: rgb(53, 5, 72);
+  box-shadow: 0 8px 20px 0 rgba(151, 95, 197, 0.37);
+  border-radius: 0.5rem;
+  padding-bottom: 1rem;
 }
 
-.detailedCollectionCard img{
+.detailedCollectionCard img {
+  width: 100%;
+  min-height: 20rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.subDetailedCollectionCard {
+  margin-top: 5%;
+}
+
+.subDetailedCollectionCard p {
+  font: 1.5rem "RSLight";
+  padding-left: 0.5rem;
+}
+.subDetailedCollectionCard span {
+  float: right;
+  font: 1.25rem "joan";
+  color: var(--purple-diff);
+  border: 1px solid var(--purple-diff);
+  padding: 0.25rem 0.7rem;
+  border-radius: 0.25rem;
+  margin-right: 1rem;
+}
+.final {
+  text-align: center;
+  font: 2rem "RSLight";
+  margin-top: 7%;
+}
+
+@media screen and (max-width: 720px) {
+  .detailedCollectionContainer {
+    margin-top: 10%;
     width: 100%;
-    min-height: 20rem;
-    border-radius: 0.5rem 0.5rem 0 0 ;
-}
-
-.subDetailedCollectionCard{
+  }
+  .detailedCollectionWrapper {
     margin-top: 5%;
-}
-
-.subDetailedCollectionCard p{
-    font: 1.7rem 'openSans1';
-    padding-left: 1rem;
-}
-.subDetailedCollectionCard span{
-    float: right;
-   font: 1.25rem 'joan';
-   color: var(--purple-diff);
-   border: 1px solid var(--purple-diff);
-   padding: 0.25rem 0.7rem;
-   border-radius: 0.25rem;
-   margin-right: 1rem;
+    gap: 3%;
+  }
+  .detailedCollectionCard {
+    width: 17rem;
+    margin-top: 8%;
+  }
+  .subDetailedCollectionCard {
+    padding: 0.5rem;
+    margin-top: 0;
+  }
+  .p2 {
+    margin-top: 5%;
+  }
+  .subDetailedCollectionCard span {
+    float: none;
+    margin-left: 2%;
+    font-size: 1rem;
+  }
+  .final {
+    margin-top: 20%;
+  }
 }

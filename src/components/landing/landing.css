@@ -1,5 +1,6 @@
 .landingContent {
   display: flex;
+  flex-wrap: wrap;
   /* border: 2px solid green; */
 }
 .landing-left {
@@ -62,7 +63,7 @@
   font-size: 2rem;
   margin: 2% 0;
 }
-.buttonContainer{
+.buttonContainer {
   margin: auto;
   text-align: center;
 }
@@ -80,12 +81,12 @@
 /*--------------------------------------------
         STAT COUNTER COMPONENT STYLING 
  --------------------------------------------*/
- .statCounter{
+.statCounter {
   margin-top: 3%;
   display: flex;
   justify-content: space-evenly;
- }
- .stats {
+}
+.stats {
   margin-top: 2%;
   font: 1rem "joan";
   letter-spacing: 1px;
@@ -94,14 +95,29 @@
   font: 2rem "openSans2";
 }
 
-.counter{
+.counter {
   display: flex;
   justify-content: space-between;
   text-align: center;
 }
 
-.count{
+.count {
   color: var(--dark-purple);
-  font: 2rem 'RSRegular';
+  font: 2rem "RSRegular";
   font-weight: 600;
+}
+
+@media screen and (max-width: 720px) {
+  .landingContent {
+    flex-direction: column;
+    margin-top: 10%;
+  }
+  .landing-left {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .landing-right {
+    width: 100%;
+    margin-top: 10%;
+  }
 }

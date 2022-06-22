@@ -1,44 +1,71 @@
-.collection-container{
-    margin-top: 10%;
+.collection-container {
+  margin-top: 10%;
 }
-.collection-container h4{
-    font: 3rem 'joan';
-}
-
-.collectionWrapper{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-.collectionCard{
-    width: 23rem;
-    margin-top: 3.5%;
-    background: rgb(53, 5, 72);
-    box-shadow: 0 8px 20px 0 rgba(151, 95, 197, 0.37);
-    border-radius: 1rem;
-    padding-bottom: 1rem;
+.collection-container h4 {
+  font: 3rem "joan";
 }
 
-.collectionCard img{
-    width: 100%;
-    height: 8rem;
-    border-radius: 1rem 1rem 0 0 ;
+.collectionWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.collectionCard {
+  width: 23rem;
+  margin-top: 3.5%;
+  background: rgb(53, 5, 72);
+  box-shadow: 0 8px 20px 0 rgba(151, 95, 197, 0.37);
+  border-radius: 1rem;
+  padding-bottom: 1rem;
 }
 
-.subCollectionCard{
-    margin-top: 5%;
+.collectionCard img {
+  width: 100%;
+  height: 8rem;
+  border-radius: 1rem 1rem 0 0;
 }
 
-.subCollectionCard p{
-    font: 2rem 'openSans1';
-    padding-left: 1rem;
+.subCollectionCard {
+  margin-top: 5%;
 }
-.subCollectionCard span{
-    float: right;
-   font: 1.25rem 'joan';
-   color: var(--purple-diff);
-   border: 1px solid var(--purple-diff);
-   padding: 0.25rem 0.7rem;
-   border-radius: 0.25rem;
-   margin-right: 1rem;
+
+.subCollectionCard p {
+  font: 2rem "openSans1";
+  padding-left: 1rem;
+}
+.subCollectionCard span {
+  float: right;
+  font: 1.25rem "joan";
+  color: var(--purple-diff);
+  border: 1px solid var(--purple-diff);
+  padding: 0.25rem 0.7rem;
+  border-radius: 0.25rem;
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 720px) {
+  .collection-container {
+    margin-top: 20%;
+    width: 99vw;
+    left: -3%;
+    position: relative;
+  }
+.collection-container h4 {
+    margin-left: 2%;
+}
+    .collectionWrapper {
+    margin-top: 2%;
+  }
+  .collectionCard {
+    width: 18.5rem;
+    margin-top: 7%;
+    box-shadow: 0 7px 10px 0 rgba(151, 95, 197, 0.37);
+  }
+  .subCollectionCard p {
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+  }
+  .subCollectionCard span {
+    margin-right: 0.5rem;
+  }
 }

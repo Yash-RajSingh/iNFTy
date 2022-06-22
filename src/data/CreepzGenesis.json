@@ -1,52 +1,52 @@
 [
-    {
-        "name": "CreepzGenesis #24",
-        "image": "../images/NFTs/CreepzGenesis/01.png",
-        "price": 6
-    },
-    {
-        "name": "CreepzGenesis #38",
-        "image": "../images/NFTs/CreepzGenesis/02.png",
-        "price": 3
-    },
-    {
-        "name": "CreepzGenesis #02",
-        "image": "../images/NFTs/CreepzGenesis/03.png",
-        "price": 1
-    },
-    {
-        "name": "CreepzGenesis #84",
-        "image": "../images/NFTs/CreepzGenesis/04.png",
-        "price": 4
-    },
-    {
-        "name": "CreepzGenesis #61",
-        "image": "../images/NFTs/CreepzGenesis/05.png",
-        "price": 8
-    },
-    {
-        "name": "CreepzGenesis #37",
-        "image": "../images/NFTs/CreepzGenesis/06.png",
-        "price": 2
-    },
-    {
-        "name": "CreepzGenesis #76",
-        "image": "../images/NFTs/CreepzGenesis/07.png",
-        "price": 2.5
-    },
-    {
-        "name": "CreepzGenesis #28",
-        "image": "../images/NFTs/CreepzGenesis/08.png",
-        "price": 5.9
-    },
-    {
-        "name": "CreepzGenesis #95",
-        "image": "../images/NFTs/CreepzGenesis/09.png",
-        "price": 7.4
-    },
-    {
-        "name": "CreepzGenesis #06",
-        "image": "../images/NFTs/CreepzGenesis/10.png",
-        "price": 5
-    }
+  {
+    "name": "CreepzGenesis #24",
+    "image": "../images/NFTs/CreepzGenesis/01.png",
+    "price": 6
+  },
+  {
+    "name": "CreepzGenesis #38",
+    "image": "../images/NFTs/CreepzGenesis/02.png",
+    "price": 3
+  },
+  {
+    "name": "CreepzGenesis #02",
+    "image": "../images/NFTs/CreepzGenesis/03.png",
+    "price": 1
+  },
+  {
+    "name": "CreepzGenesis #84",
+    "image": "../images/NFTs/CreepzGenesis/04.png",
+    "price": 4
+  },
+  {
+    "name": "CreepzGenesis #61",
+    "image": "../images/NFTs/CreepzGenesis/05.png",
+    "price": 8
+  },
+  {
+    "name": "CreepzGenesis #37",
+    "image": "../images/NFTs/CreepzGenesis/06.png",
+    "price": 2
+  },
+  {
+    "name": "CreepzGenesis #76",
+    "image": "../images/NFTs/CreepzGenesis/07.png",
+    "price": 2.5
+  },
+  {
+    "name": "CreepzGenesis #28",
+    "image": "../images/NFTs/CreepzGenesis/08.png",
+    "price": 5.9
+  },
+  {
+    "name": "CreepzGenesis #95",
+    "image": "../images/NFTs/CreepzGenesis/09.png",
+    "price": 7.4
+  },
+  {
+    "name": "CreepzGenesis #06",
+    "image": "../images/NFTs/CreepzGenesis/10.png",
+    "price": 5
+  }
 ]

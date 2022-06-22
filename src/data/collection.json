@@ -1,32 +1,32 @@
 [
-    {
-        "name": "BoredApe",
-        "cover": "./images/NFTs/BoredApe/logo.jpg",
-        "count" : 10
-    },
-    {
-        "name": "CreepzGenesis",
-        "cover": "./images/NFTs/CreepzGenesis/logo.png",
-        "count" : 10 
-    },
-    {
-        "name": "CyberKong",
-        "cover": "./images/NFTs/CyberKong/logo.png",
-        "count": 10 
-    },
-    {
-        "name": "DeadFellaz",
-        "cover": "./images/NFTs/DeadFellaz/logo.png",
-        "count" : 10
-    },
-    {
-        "name": "LlamaVerse",
-        "cover": "./images/NFTs/LlamaVerse/logo.png",
-        "count" : 10
-    },
-    {
-        "name": "NeoTokyoCitizen",
-        "cover": "./images/NFTs/NeoTokyoCitizen/logo.png",
-        "count" : 10
-    }
+  {
+    "name": "BoredApe",
+    "cover": "./images/NFTs/BoredApe/logo.jpg",
+    "count": 10
+  },
+  {
+    "name": "CreepzGenesis",
+    "cover": "./images/NFTs/CreepzGenesis/logo.png",
+    "count": 10
+  },
+  {
+    "name": "CyberKong",
+    "cover": "./images/NFTs/CyberKong/logo.png",
+    "count": 10
+  },
+  {
+    "name": "DeadFellaz",
+    "cover": "./images/NFTs/DeadFellaz/logo.png",
+    "count": 10
+  },
+  {
+    "name": "LlamaVerse",
+    "cover": "./images/NFTs/LlamaVerse/logo.png",
+    "count": 10
+  },
+  {
+    "name": "NeoTokyoCitizen",
+    "cover": "./images/NFTs/NeoTokyoCitizen/logo.png",
+    "count": 10
+  }
 ]
