@@ -1,9 +1,7 @@
 import "./header.css";
 import logo from "../../assets/logo.png";
-import { useScrollBy } from "react-use-window-scroll";
 import { Link } from "react-router-dom"
 const Header = () => {
-  const scrollBy = useScrollBy();
   return (
     <>
       <div className="header">
@@ -24,7 +22,7 @@ const Header = () => {
               }
             }}
           />
-          <button onClick={() => scrollBy({ top: 700, behavior: "smooth" })}>
+          <button onClick={() => window.scrollBy({ top: 700, behavior: "smooth" })}>
             Explore
           </button>
         </div>

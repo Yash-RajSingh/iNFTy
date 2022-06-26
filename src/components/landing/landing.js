@@ -1,9 +1,7 @@
 import "./landing.css";
 import man from "../../assets/man.png";
 import Ticker from "./ticker";
-import { useScrollBy } from "react-use-window-scroll";
 const LandingContent = () => {
-  const scrollBy = useScrollBy();
   return (
     <>
       <div className="landingContent">
@@ -17,7 +15,7 @@ const LandingContent = () => {
             The world's largest digital marketpalce for crypto collectibles and
             non-fungible tokens (NFTs).
           </p>
-          <button onClick={() => scrollBy({ top: 700, behavior: "smooth" })}>
+          <button onClick={() => window.scrollBy({ top: 700, behavior: "smooth" })}>
             Explore
           </button>
         </div>
@@ -25,7 +23,6 @@ const LandingContent = () => {
           <img src={man} className="main-img" alt="NFT"/>
           <div className="auctionStats">
             <div className="auctionStatContainer">
-              {" "}
               Current bid <p>5.00 ETH</p> $11,373.55
             </div>
             <div className="auctionStatContainer middle">

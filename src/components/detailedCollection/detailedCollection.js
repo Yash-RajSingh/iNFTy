@@ -7,7 +7,6 @@ import CyberKong from "../../data/CyberKong.json";
 import DeadFellaz from "../../data/DeadFellaz.json";
 import LlamaVerse from "../../data/LlamaVerse.json";
 import NeoTokyoCitizen from "../../data/NeoTokyoCitizen.json";
-import { useScrollTo } from "react-use-window-scroll";
 
 const Paramchecker = () => {
   let { name } = useParams();
@@ -25,18 +24,18 @@ const Paramchecker = () => {
       return LlamaVerse;
     case "NeoTokyoCitizen":
       return NeoTokyoCitizen;
+    default:
+        return '';
   }
 };
 
 const DetailedCollection = () => {
-  const scrollTo = useScrollTo();
   window.scrollTo({ top: 0 });
   let { name } = useParams();
   let current = Paramchecker();
   const [width, setWidth] = useState();
   let screenWidth = useRef()
   useEffect(()=>{
-    console.log(screenWidth.current.offsetWidth)
     setWidth(screenWidth.current.offsetWidth)
   })
   if(width > 720){
@@ -48,7 +47,7 @@ const DetailedCollection = () => {
             {current.map((data) => {
               return (
                 <div className="detailedCollectionCard" key={data.name}>
-                  <img src={data.image} alt={data.name} />
+                  <img src={data.image} alt={data.name} fetchpriority="high"/>
                   <div className="subDetailedCollectionCard">
                     <span>{data.price} ETH</span>
                     <p>{data.name}</p>

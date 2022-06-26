@@ -1,5 +1,6 @@
 import "./footer.css";
 import logo from "../../assets/logo.png";
+import { Link } from "react-router-dom";
 import { BsTwitter } from "react-icons/bs";
 import { SiDiscord, SiFacebook, SiInstagram, SiLinkedin } from "react-icons/si";
 const Footer = () => {
@@ -8,7 +9,9 @@ const Footer = () => {
       <div className="footer">
         <div className="footerDiv1">
           <img src={logo} alt="Logo" />
-          <h2>iNFTy</h2>
+          <Link to="/" className="routelink">
+            <h2>iNFTy</h2>
+          </Link>
           <p>
             The world's largest digital marketplace for crypto collectibles and
             non-fungible tokens (NFTs). Buy, Sell and discover exclusive digital
