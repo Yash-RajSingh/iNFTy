@@ -16,7 +16,7 @@
   },
   {
     "name": "Juan Gomez",
-    "profile": "./images/artists/04.jpg",
+    "profile": "./images/artists/07.jpg",
     "netValue": 52.56
   },
   {
@@ -28,15 +28,5 @@
     "name": "Jack Winbow",
     "profile": "./images/artists/06.jpg",
     "netValue": 24.56
-  },
-  {
-    "name": "Mohamed Abdelghaffar",
-    "profile": "./images/artists/07.jpg",
-    "netValue": 200
-  },
-  {
-    "name": "Rio Kuncoro",
-    "profile": "./images/artists/08.jpg",
-    "netValue": 568.8
   }
 ]
